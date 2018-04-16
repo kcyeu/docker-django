@@ -6,3 +6,9 @@ python-decouple
 django-phonenumber-field
 django-sendgrid-v5
 django-registration
+django-choices
+django-qr-code
+
+#django-money
+-e git+https://github.com/kcyeu/django-money.git#egg=django_money
+django-twilio
