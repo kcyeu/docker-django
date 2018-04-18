@@ -1,4 +1,5 @@
-FROM kcyeu/docker-python
+FROM kcyeu/python
+MAINTAINER Gordon Yeu <kcyeu@mikuru.tw>
 
 RUN mkdir -p /src
 RUN mkdir -p /config
