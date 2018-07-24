@@ -1,5 +1,5 @@
 behave-django==1.1.0
-celery==4.1.1
+celery>=4.1.1
 coverage==4.5.1
 redis==2.10.6
 django-bootstrap4==0.0.6
@@ -12,7 +12,7 @@ django-extensions==2.0.7
 django-gravatar2==1.4.2
 django-money==0.14
 django-qr-code==1.0.0
-#django-registration==2.4.1
+django-recaptcha==1.4.0
 django-sendgrid-v5==0.6.87
 django-settings-export==1.2.1
 django-twilio==0.9.0
@@ -21,6 +21,8 @@ geoip2==2.9.0
 gunicorn==19.8.1
 psycopg2-binary
 python-decouple==3.1
+pycoin
+python-bitcoinrpc>=1.0
 pillow==5.2.0
 pip==18.0
 
