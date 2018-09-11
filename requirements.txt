@@ -1,6 +1,6 @@
 behave-django==1.1.0
 # boto3 for AWS
-boto3==1.9.1
+#boto3==1.9.1
 # Celery with redis dep
 celery[redis]>=4.2
 coverage==4.5.1
@@ -24,7 +24,7 @@ django-recaptcha==1.4.0
 django-redis==4.9.0
 django-sendgrid-v5==0.6.87
 django-settings-export==1.2.1
-django-storages==1.7.1
+django-storages[boto3]==1.7.1
 django-twilio==0.9.0
 djangorestframework==3.8.2
 geoip2==2.9.0
