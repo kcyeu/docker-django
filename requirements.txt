@@ -1,6 +1,6 @@
 behave-django==1.1.0
 # boto3 for AWS
-boto3>=1.9.1
+boto3==1.9.1
 # Celery with redis dep
 celery[redis]>=4.2
 coverage==4.5.1
@@ -29,7 +29,7 @@ django-twilio==0.9.0
 djangorestframework==3.8.2
 geoip2==2.9.0
 # GCS
-google-cloud-storage>=0.22.0
+google-cloud-storage>=1.11.0
 gunicorn==19.8.1
 #django-cc dep
 mock
