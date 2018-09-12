@@ -3,7 +3,7 @@
 
 ![License MIT](https://img.shields.io/badge/license-MIT-blue.svg) [![Docker Registry: kcyeu/django](https://img.shields.io/badge/docker-kcyeu%2Fdjango-blue.svg)](https://hub.docker.com/r/kcyeu/django/)
 
-Dockerized Django development environment
+Dockerized Django development environment with handy packages
 
 This is docker image of django 1.11 (LTS), for django 2 please goto:
 * [GitHub](https://github.com/kcyeu/docker-django2/)
