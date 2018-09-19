@@ -1,4 +1,4 @@
-FROM kcyeu/python
+FROM kcyeu/python:latest
 MAINTAINER Gordon Yeu <kcyeu@mikuru.tw>
 
 RUN mkdir -p /src /config
