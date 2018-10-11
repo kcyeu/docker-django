@@ -6,7 +6,7 @@ celery>=4.2
 coverage==4.5.1
 redis==2.10.6
 django-bootstrap4==0.0.7
-django==1.11.15
+django==1.11.16
 django-allauth==0.36.0
 django-allauth-2fa==0.6
 django-auditlog==0.4.5
