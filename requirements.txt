@@ -31,6 +31,7 @@ django-storages[boto3]==1.7.1
 django-twilio==0.9.0
 django-widget-tweaks==1.4.3
 #djangorestframework==3.8.2
+elastic-apm>=4.0.2
 geoip2==2.9.0
 # GCS
 google-cloud-storage>=1.11.0
