@@ -6,10 +6,11 @@ RUN mkdir -p /src /config
 ADD /requirements.txt /config/
 
 RUN apt update && \
-	apt install -y gcc autoconf  && \
+	DEPS="gcc autoconf git" $$ \
+	apt install -y ${DEPS} && \
 	pip install python3-keyczar && \
 	pip install -r /config/requirements.txt && \
-	apt remove -y gcc autoconf && \
+	apt remove -y ${DEPS} && \
 	apt autoremove -y && \
 	rm -f /config/requirements.txt
 
