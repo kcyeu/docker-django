@@ -1,18 +1,17 @@
 FROM kcyeu/python:latest
 MAINTAINER Gordon Yeu <kcyeu@mikuru.tw>
 
-RUN mkdir -p /src /config
-
-ADD /requirements.txt /config/
+ENV REQUIREMENTS_FILE /requirements.txt
+ADD ${REQUIREMENTS_FILE} /
 
 RUN apt update && \
+	apt upgrade -y && \
 	DEPS="gcc autoconf git" && \
 	apt install -y ${DEPS} && \
 	pip install python3-keyczar && \
-	pip install -r /config/requirements.txt && \
+	pip install -r ${REQUIREMENTS_FILE} && \
 	apt remove -y ${DEPS} && \
 	apt autoremove -y && \
-	rm -f /config/requirements.txt
+	rm -f ${REQUIREMENTS_FILE}
 
-WORKDIR /src  
-
+WORKDIR /
