@@ -43,7 +43,7 @@ gunicorn==19.9.0
 mock==3.0.5
 psycopg2-binary==2.8.3
 python-decouple==3.1
-pycoin==0.80
+pycoin==0.90.20190728
 #pycoin==0.90
 # Use special version from GitHub until upstream accept pull request
 git+https://github.com/kcyeu/python-bitcoinrpc@bypass-ssl-verification#egg=python-bitcoinrpc

@@ -1,3 +1,3 @@
 #!/bin/sh
 
-docker build -t local/django:2.2 .
+docker build -t local/django:latest .
