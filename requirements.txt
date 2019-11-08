@@ -45,8 +45,8 @@ psycopg2-binary==2.8.3
 python-decouple==3.1
 pycoin==0.90.20190728
 #pycoin==0.90
-# Use special version from GitHub until upstream accept pull request
-git+https://github.com/kcyeu/python-bitcoinrpc@bypass-ssl-verification#egg=python-bitcoinrpc
+# Use our own special version from GitHub until upstream roll out new release
+git+https://github.com/kcyeu/python-bitcoinrpc@master#egg=python-bitcoinrpc
 pillow==6.2.0
 pip==19.2.3
 tblib==1.4.0
