@@ -3,6 +3,7 @@ MAINTAINER Gordon Yeu <kcyeu@mikuru.tw>
 
 ENV REQUIREMENTS_FILE /requirements.txt
 ADD ${REQUIREMENTS_FILE} /
+#ADD sources.list    /etc/apt/sources.list
 
 RUN apt update && \
 	apt upgrade -y && \
