@@ -12,7 +12,7 @@ django-analytical==2.6.0
 django-auditlog==0.4.7
 django-choices==1.7.1
 django-constance[redis]==2.7.0
-django-countries==5.5
+django-countries<6.2
 django-data-masker>=1.1.1
 django-extensions<3.0.0
 django-filter==2.3.0
@@ -20,9 +20,11 @@ django-fsm==2.7.0
 django-gravatar2==1.4.4
 django-ipware==3.0.1
 django-meta<2.0.0
-django-money==0.15
+#django-money==0.15
+django-money==1.1
 django-notifications-hq>=1.5.0
-django-polymorphic==2.1.2
+#django-polymorphic==2.1.2
+django-polymorphic==3.0.0
 django-qr-code<2.0.0
 django-recaptcha==2.0.6
 django-redis==4.12.1
