@@ -1,8 +1,13 @@
 FROM kcyeu/python:latest
 MAINTAINER Gordon Yeu <kcyeu@mikuru.tw>
 
+# Prod
 ENV REQUIREMENTS_PROD_FILE /requirements.txt
 ADD ${REQUIREMENTS_PROD_FILE} /
+
+# Dev, not install by default
+ENV REQUIREMENTS_DEV_FILE /requirements.dev.txt
+ADD ${REQUIREMENTS_DEV_FILE} /
 
 RUN apt update && \
 	apt upgrade -y && \
