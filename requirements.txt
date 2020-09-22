@@ -1,8 +1,5 @@
-behave-django==1.4.0
-
 # Celery with redis dep
 celery==4.4.7
-#coverage==5.2.1
 redis==3.5.3
 django-bootstrap4==2.2.0
 django<3.0.0
@@ -47,7 +44,12 @@ pycoin==0.90.20200809
 # Use our own special version from GitHub until upstream roll out new release
 git+https://github.com/kcyeu/python-bitcoinrpc@master#egg=python-bitcoinrpc
 pillow==7.2.0
-pip
-#tblib==1.7.0
 #web3==5.5.0
+
+# For dev, install but not enabled
+coverage==5.2.1
+tblib==1.7.0
+ipython
+behave-django==1.4.0
+
 
