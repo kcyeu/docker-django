@@ -10,6 +10,7 @@ django-auditlog==0.4.7
 django-choices==1.7.1
 django-constance[redis]==2.7.0
 django-countries<6.2
+django-cryptography==1.0
 django-data-masker>=1.1.1
 django-extensions<3.0.0
 django-filter==2.3.0
