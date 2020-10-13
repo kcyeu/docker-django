@@ -1,6 +1,6 @@
 # Celery with redis dep
 #celery==4.4.7
-celery[redis]<=5.0.0
+celery[redis]==5.0.0
 #redis==3.5.3
 django-bootstrap4==2.2.0
 django<3.0.0
