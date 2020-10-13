@@ -1,3 +1,6 @@
 #!/bin/sh
 
-docker build -t local/django:latest .
+BRANCH="latest"
+#BRANCH="beta"
+
+docker build -t local/django:${BRANCH} .
