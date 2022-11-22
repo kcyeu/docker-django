@@ -45,7 +45,7 @@ python-decouple==3.3
 pycoin==0.90.20200809
 # Use our own special version from GitHub until upstream roll out new release
 git+https://github.com/kcyeu/python-bitcoinrpc@master#egg=python-bitcoinrpc
-pillow==7.2.0
+pillow==9.3.0
 #web3==5.5.0
 
 # For dev, install but not enabled
